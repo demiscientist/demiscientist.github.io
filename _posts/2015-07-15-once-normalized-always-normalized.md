@@ -40,7 +40,7 @@ Writing Schrödinger equation as:
 
 \begin{equation}
 \frac{\partial \Psi}{\partial t} = \frac{i\hbar}{2m} \frac{\partial^2 \Psi}{\partial x^2} - \frac{i}{\hbar}V\Psi
-\begin{equation}
+\end{equation}
 
 Similarly,
 
@@ -53,8 +53,8 @@ Since $$V$$ and $$\Psi$$ are real.
 Substituting in the first equation and rearranging, we get;
 
 \begin{equation}
-\Rightarrow \frac{\partial \left |\Psi\right |^2}{\partial t} = \frac{i\hbar}{2m} \Big( \Psi^\frac{\partial^2 \Psi}{\partial x^2} - \Psi\frac{\partial^2 \Psi^*}{\partial x^2}\Big ) = \frac{\partial}{\partial x}\Big [\frac{i\hbar}{2m}\Big (\Psi^*\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^*}{\partial x}\Big )\Big ]
-\begin{equation}
+\Rightarrow \frac{\partial \left |\Psi\right |^2}{\partial t} = \frac{i\hbar}{2m} \Big( \Psi^\frac{\partial^2 \Psi}{\partial x^2} - \Psi\frac{\partial^2 \Psi^}{\partial x^2}\Big ) = \frac{\partial}{\partial x}\Big [\frac{i\hbar}{2m}\Big (\Psi^*\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^*}{\partial x}\Big )\Big ]
+\end{equation}
 
 
 {\displaystyle \therefore, \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \frac{i\hbar}{2m}\Big (\Psi^*\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^*}{\partial x}\Big )_{-\infty}^{+\infty}}
