@@ -53,7 +53,7 @@ Since $$V$$ and $$\Psi$$ are real.
 Substituting in the first equation and rearranging, we get;
 
 \begin{equation}
-\Rightarrow \frac{\partial \left |\Psi\right |^2}{\partial t} = \frac{i\hbar}{2m} \Big( \Psi^\frac{\partial^2 \Psi}{\partial x^2} - \Psi\frac{\partial^2 \Psi^}{\partial x^2}\Big ) = \frac{\partial}{\partial x}\Big ( \frac{i\hbar}{2m}\Big(\Psi^\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^}{\partial x}\Big )\Big)
+\Rightarrow \frac{\partial \left |\Psi\right |^2}{\partial t} = \frac{i\hbar}{2m} \Big( \Psi^*\frac{\partial^2 \Psi}{\partial x^2} - \Psi\frac{\partial^2 \Psi^*}{\partial x^2}\Big ) = \frac{\partial}{\partial x}\Big ( \frac{i\hbar}{2m}\Big(\Psi^*\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^*}{\partial x}\Big )\Big)
 \end{equation}
 
 
