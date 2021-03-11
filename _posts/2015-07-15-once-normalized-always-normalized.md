@@ -45,7 +45,7 @@ Writing Schrödinger equation as:
 Similarly,
 
 \begin{equation}
-\frac{\partial \Psi^{\asterisk}}{\partial t} = -\frac{i\hbar}{2m} \frac{\partial^2 \Psi^{\asterisk}}{\partial x^2} + \frac{i}{\hbar}V\Psi
+\frac{\partial \Psi^{\ast}}{\partial t} = -\frac{i\hbar}{2m} \frac{\partial^2 \Psi^{\ast}}{\partial x^2} + \frac{i}{\hbar}V\Psi
 \end{equation}
 
 Since $$V$$ and $$\Psi$$ are real.
@@ -144,11 +144,11 @@ Untitled-1-page-001
 
 Wave \ function \ in \ a \ square \ well 
 
-By normalizing the wave function we want to solve for the unknown constant A. In a normalized function, the probability of finding the particle between x and x+dx, |\Psi(x)|^2dx,
+By normalizing the wave function we want to solve for the unknown constant A. In a normalized function, the probability of finding the particle between $$x$$ and $$x+dx$$, $$|\Psi(x)|^2dx$$,
 
-Also, {\displaystyle \int_{0}^{a}|\Psi(x)|^2dx = 1}
+Also, $$\int_{0}^{a}|\Psi(x)|^2dx = 1$$
 
-Substituting for \Psi(x) gives us:
+Substituting for $$\Psi(x)$$ gives us:
 
 {\displaystyle |A|^2 \int_{0}^{a}\sin^2{\Big ( \frac{n\pi x}{a}\Big )}dx = 1}
 
