@@ -1,1 +1,1 @@
-# thedemiscientist.github.io
+# demiscientist.github.io
