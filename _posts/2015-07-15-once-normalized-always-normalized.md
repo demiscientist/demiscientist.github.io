@@ -57,7 +57,9 @@ Substituting in the first equation and rearranging, we get;
 \end{equation}
 
 
-{\displaystyle \therefore, \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \frac{i\hbar}{2m}\Big (\Psi^*\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^*}{\partial x}\Big )_{-\infty}^{+\infty}}
+\begin{equation}
+\therefore, \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \frac{i\hbar}{2m}\Big (\Psi^\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^}{\partial x}\Big )\_{-\infty}^{+\infty}
+\end{equation}
 
 Since, \Psi(x,t)\rightarrow 0 as x\rightarrow \infty for \Psi(x,t) to be non-normalizable.
 
