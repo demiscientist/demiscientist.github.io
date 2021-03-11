@@ -3,22 +3,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>The Demiscientist</title>
- <link href="http://http://thedemiscientist.github.io//atom.xml" rel="self"/>
- <link href="http://http://thedemiscientist.github.io//"/>
+ <title>The demiscientist</title>
+ <link href="http://http://demiscientist.github.io//atom.xml" rel="self"/>
+ <link href="http://http://demiscientist.github.io//"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://http://thedemiscientist.github.io//</id>
+ <id>http://http://demiscientist.github.io//</id>
  <author>
-   <name>The Demiscientist</name>
+   <name>The demiscientist</name>
    <email>thedemiscientist@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://http://thedemiscientist.github.io/{{ post.url }}"/>
+   <link href="http://demiscientist.github.io/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://http://thedemiscientist.github.io/{{ post.id }}</id>
+   <id>http://demiscientist.github.io/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
