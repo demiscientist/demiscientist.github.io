@@ -116,11 +116,11 @@ where $$\omega = 2\pi$$ \nu  and \nu = \frac{E}{h}
 
 Now,
 
-{\displaystyle \Psi = \Phi(x) e^{-i\frac{E}{\hbar}t}}
+$$ \Psi = \Phi(x) e^{-i\frac{E}{\hbar}t}$$
 
 Substituting in the wave equation,
 
-{\displaystyle \triangledown^2\Phi(x)e^{-i\frac{E}{\hbar}t} = \frac{1}{v^2}\frac{\partial^2 \Psi}{\partial t^2}}
+$$ \triangledown^2\Phi(x)e^{-i\frac{E}{\hbar}t} = \frac{1}{v^2}\frac{\partial^2 \Psi}{\partial t^2}$$
 
 {\displaystyle \Rightarrow \triangledown^2 \Phi(x) = -\frac{1}{v^2}\frac{E^2}{\hbar^2}\Phi(x)}
 
