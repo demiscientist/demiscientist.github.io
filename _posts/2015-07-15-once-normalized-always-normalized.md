@@ -45,7 +45,7 @@ Writing Schrödinger equation as:
 Similarly,
 
 \begin{equation}
-\frac{\partial \Psi^*}{\partial t} = -\frac{i\hbar}{2m} \frac{\partial^2 \Psi^*}{\partial x^2} + \frac{i}{\hbar}V\Psi
+\frac{\partial \Psi^{\asterisk}}{\partial t} = -\frac{i\hbar}{2m} \frac{\partial^2 \Psi^{\asterisk}}{\partial x^2} + \frac{i}{\hbar}V\Psi
 \end{equation}
 
 Since $$V$$ and $$\Psi$$ are real.
