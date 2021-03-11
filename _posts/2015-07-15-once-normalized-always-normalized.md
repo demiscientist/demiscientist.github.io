@@ -78,7 +78,7 @@ Though we have discussed the normalization and the time evolution of the wave fu
 
 We know very well that wave equation for a stretched string can be derived from Newton’s law, and the electromagnetic wave equation can be derived from Maxwell’s equations; but we cannot expect to be able to derive the quantum mechanical wave equation from any of the equations of classical physics. However, we can expect to receive some help from the de Broglie-Einstein postulates,
 
-$$ \lambda = \frac{h}{p}$$           and           $$ \nu = \frac{E}{h}$$
+$$ \lambda = \dfrac{h}{p}$$           and           $$ \nu = \dfrac{E}{h}$$
 
 which connect, for the case of essentially constant $$p$$ and $$E$$, the wavelength $$\lambda$$ of the wave function with the linear momentum p of the associated particle, and also connect the frequency $$\nu$$ of the wave function with the total energy $$E$$ of the particle. The above equation plus others that we shall have reason to accept, will be woven into an argument that is designed to make the quantum mechanical wave equation seem more plausible, but I’d like to emphasize that this plausibility argument will not constitute a derivation. In the final analysis, the quantum mechanical wave equation will be obtained by a postulate, whose justification is not that it has been deduced entirely from information already known experimentally, but that it correctly predicts results which can be verified experimentally.
 
@@ -88,26 +88,31 @@ It must be consistent with the de Broglie-Einstein postulates,
 $$ \lambda = \frac{h}{p}$$ and $$ \nu = \frac{E}{h}$$
 It must be consistent with the total energy equation,
 $$ E = \frac{p^2}{2m} + V$$
-It must be linear in $$\Psi(x,t)$$. That is, if $$\Psi_1(x,t)$$ and $$\Psi_2(x,t)$$ are two different solutions to the equations for a given potential energy V, then arbitrary linear combination of these solutions, \Psi(x,t) = c_1\Psi_1(x,t) + c_2\Psi_2(x,t), is also a solution. This linearity requirement ensures that we shall be able to add together wave functions to produce the constructive and destructive interferences that are so characteristic of waves.
-The potential energy V is generally a function of x, and possibly even t.
+It must be linear in $$\Psi(x,t)$$. That is, if $$\Psi_1(x,t)$$ and $$\Psi_2(x,t)$$ are two different solutions to the equations for a given potential energy $$V$$, then arbitrary linear combination of these solutions, $$\Psi(x,t) = c_1\Psi_1(x,t) + c_2\Psi_2(x,t)$$, is also a solution. This linearity requirement ensures that we shall be able to add together wave functions to produce the constructive and destructive interferences that are so characteristic of waves.
+
+The potential energy $$V$$ is generally a function of $$x$$, and possibly even $$t$$.
 Wave associated with a particle—
 Using wave equation,
 
-{\displaystyle \triangledown^2\Psi = \frac{1}{v^2}\frac{\partial^2 \Psi}{\partial t^2}}
+\begin{equation}
+\triangledown^2\Psi = \frac{1}{v^2}\frac{\partial^2 \Psi}{\partial t^2}}
+\end{equation}
 
-where, \Psi = \Phi(x,y,z)T(t)
+where, $$\Psi = \Phi(x,y,z)T(t)$$
 
-where, \Phi(x,y,z) is the function of space.
+where, $$\Phi(x,y,z)$$ is the function of space.
 
-We’re going to strictly consider V to be a function of just x, and not x and t.
+We are going to strictly consider $$V$$ to be a function of just $$x$$, and not $$x$$ and $$t$$.
 
-Since we’re looking for harmonic solutions (following Schrödinger’s brilliant insight, we choose to express the phase of a plane wave in the superfluid vacuum as a complex phase factor via \Psi = Ae^{i(k.r-\omega t)}.), we’ve;
+Since we are looking for harmonic solutions (following Schrödinger’s brilliant insight, we choose to express the phase of a plane wave in the superfluid vacuum as a complex phase factor via $$\Psi = Ae^{i(k.r-\omega t)$$), we have;
 
-     {\displaystyle T(t) = e^{-i\omega t}}
+\begin{equation}
+T(t) = e^{-i\omega t}
+\end{equation}
 
-{\displaystyle \therefore, T(t) = e^{-i\frac{2\pi}{h}t}}
+\therefore, $$T(t) = e^{-i\frac{2\pi}{h}t}}$$
 
-where \omega = 2\pi \nu  and \nu = \frac{E}{h}
+where $$\omega = 2\pi$$ \nu  and \nu = \frac{E}{h}
 
 Now,
 
