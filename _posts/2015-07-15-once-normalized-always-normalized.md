@@ -53,40 +53,42 @@ Since $$V$$ and $$\Psi$$ are real.
 Substituting in the first equation and rearranging, we get;
 
 \begin{equation}
-\Rightarrow \frac{\partial \left |\Psi\right |^2}{\partial t} = \frac{i\hbar}{2m} \Big( \Psi^{\ast}\frac{\partial^2 \Psi}{\partial x^2} - \Psi\frac{\partial^2 \Psi^{\ast}}{\partial x^2}\Big ) = \frac{\partial}{\partial x}\Big { \frac{i\hbar}{2m}\Big(\Psi^{\ast}\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^{\ast}}{\partial x}\Big )\Big}
+\Rightarrow \frac{\partial \left |\Psi\right |^2}{\partial t} = \frac{i\hbar}{2m} \Big( \Psi^{\ast}\frac{\partial^2 \Psi}{\partial x^2} - \Psi\frac{\partial^2 \Psi^{\ast}}{\partial x^2}\Big ) = \frac{\partial}{\partial x}\Big ( \frac{i\hbar}{2m}\Big(\Psi^{\ast}\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^{\ast}}{\partial x}\Big )\Big )
 \end{equation}
 
 \begin{equation}
 \therefore, \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \frac{i\hbar}{2m}\Big (\Psi^{\ast}\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^{\ast}}{\partial x}\Big )_{-\infty}^{+\infty}
 \end{equation}
 
-Since, \Psi(x,t)\rightarrow 0 as x\rightarrow \infty for \Psi(x,t) to be non-normalizable.
+Since, $$\Psi(x,t)\rightarrow 0$$ as $$x\rightarrow \infty$$ for $$\Psi(x,t)$$ to be non-normalizable.
 
 It follows,
 
-{\displaystyle \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = 0.}
+\begin{equation}
+\frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = 0
+\end{equation}
 
-and hence, integral is a constant (independent of time); if \Psi is normalized at t=0, it stays normalized for all future time.
+and hence, integral is a constant (independent of time); if $$\Psi$$ is normalized at $$t=0$$, it stays normalized for all future time.
 
 Q.E.D.
 
 Hence, we can conclude that wave function once normalized is always normalized.
 
-Though we’ve discussed the normalization and the time evolution of the wave function but it’d be sin on my part if I don’t argue on the plausibility of Schrödinger equation itself. Hence, I’d like to add little plausibility argument leading to Schrödinger equation—
+Though we have discussed the normalization and the time evolution of the wave function but it would be sin on my part if I do not argue on the plausibility of Schrödinger equation itself. Hence, I would like to add little plausibility argument leading to Schrödinger equation—
 
 We know very well that wave equation for a stretched string can be derived from Newton’s law, and the electromagnetic wave equation can be derived from Maxwell’s equations; but we cannot expect to be able to derive the quantum mechanical wave equation from any of the equations of classical physics. However, we can expect to receive some help from the de Broglie-Einstein postulates,
 
-{\displaystyle \lambda = \frac{h}{p}}           and           {\displaystyle \nu = \frac{E}{h}}
+$$ \lambda = \frac{h}{p}$$           and           $$ \nu = \frac{E}{h}$$
 
-which connect, for the case of essentially constant p and E, the wavelength \lambda of the wave function with the linear momentum p of the associated particle, and also connect the frequency \nu of the wave function with the total energy E of the particle. The above equation plus others that we shall have reason to accept, will be woven into an argument that is designed to make the quantum mechanical wave equation seem more plausible, but I’d like to emphasize that this plausibility argument will not constitute a derivation. In the final analysis, the quantum mechanical wave equation will be obtained by a postulate, whose justification is not that it has been deduced entirely from information already known experimentally, but that it correctly predicts results which can be verified experimentally.
+which connect, for the case of essentially constant $$p$$ and $$E$$, the wavelength $$\lambda$$ of the wave function with the linear momentum p of the associated particle, and also connect the frequency $$\nu$$ of the wave function with the total energy $$E$$ of the particle. The above equation plus others that we shall have reason to accept, will be woven into an argument that is designed to make the quantum mechanical wave equation seem more plausible, but I’d like to emphasize that this plausibility argument will not constitute a derivation. In the final analysis, the quantum mechanical wave equation will be obtained by a postulate, whose justification is not that it has been deduced entirely from information already known experimentally, but that it correctly predicts results which can be verified experimentally.
 
 We begin our plausibility argument by listing four reasonable assumptions concerning the properties of the desired quantum mechanical wave equation:
 
 It must be consistent with the de Broglie-Einstein postulates,
-{\displaystyle \lambda = \frac{h}{p}} and {\displaystyle \nu = \frac{E}{h}}
+$$ \lambda = \frac{h}{p}$$ and $$ \nu = \frac{E}{h}$$
 It must be consistent with the total energy equation,
-{\displaystyle E = \frac{p^2}{2m} + V}
-It must be linear in \Psi(x,t). That is, if \Psi_1(x,t) and \Psi_2(x,t) are two different solutions to the equations for a given potential energy V, then arbitrary linear combination of these solutions, \Psi(x,t) = c_1\Psi_1(x,t) + c_2\Psi_2(x,t), is also a solution. This linearity requirement ensures that we shall be able to add together wave functions to produce the constructive and destructive interferences that are so characteristic of waves.
+$$ E = \frac{p^2}{2m} + V$$
+It must be linear in $$\Psi(x,t)$$. That is, if $$\Psi_1(x,t)$$ and $$\Psi_2(x,t)$$ are two different solutions to the equations for a given potential energy V, then arbitrary linear combination of these solutions, \Psi(x,t) = c_1\Psi_1(x,t) + c_2\Psi_2(x,t), is also a solution. This linearity requirement ensures that we shall be able to add together wave functions to produce the constructive and destructive interferences that are so characteristic of waves.
 The potential energy V is generally a function of x, and possibly even t.
 Wave associated with a particle—
 Using wave equation,
