@@ -10,5 +10,5 @@ title: Once Normalized, Always Normalized
 
 Quantum mechanics’ approach to solve a problem involves looking for the particle’s (the body under consideration) wave function, $$\Psi(x,t)$$, and we get it by solving the Schrödinger equation: 
 \begin{equation}
-i\hbar\frac{\partial \Psi}{\partial t} = -\frac{\hbar^2}{2m} \frac{\partial^2 \Psi}{\partial x^2} + V\Psi}
+i\hbar\frac{\partial \Psi}{\partial t} = -\frac{\hbar^2}{2m} \frac{\partial^2 \Psi}{\partial x^2} + V\Psi
 \end{equation}
