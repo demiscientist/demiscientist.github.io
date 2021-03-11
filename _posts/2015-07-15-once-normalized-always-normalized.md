@@ -46,7 +46,7 @@ Similarly,
 
 \begin{equation}
 \frac{\partial \Psi^}{\partial t} = -\frac{i\hbar}{2m} \frac{\partial^2 \Psi^}{\partial x^2} + \frac{i}{\hbar}V\Psi
-\begin{equation}
+\end{equation}
 
 Since $$V$$ and $$\Psi$$ are real.
 
@@ -58,7 +58,7 @@ Substituting in the first equation and rearranging, we get;
 
 
 \begin{equation}
-\therefore, \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \frac{i\hbar}{2m}\Big (\Psi^\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^}{\partial x}\Big )\_{-\infty}^{+\infty}
+\therefore, \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \frac{i\hbar}{2m}\Big (\Psi^\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^}{\partial x}\Big )_{-\infty}^{+\infty}
 \end{equation}
 
 Since, \Psi(x,t)\rightarrow 0 as x\rightarrow \infty for \Psi(x,t) to be non-normalizable.
