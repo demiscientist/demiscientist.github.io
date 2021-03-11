@@ -53,12 +53,11 @@ Since $$V$$ and $$\Psi$$ are real.
 Substituting in the first equation and rearranging, we get;
 
 \begin{equation}
-\Rightarrow \frac{\partial \left |\Psi\right |^2}{\partial t} = \frac{i\hbar}{2m} \Big( \Psi^*\frac{\partial^2 \Psi}{\partial x^2} - \Psi\frac{\partial^2 \Psi^*}{\partial x^2}\Big ) = \frac{\partial}{\partial x}\Big ( \frac{i\hbar}{2m}\Big(\Psi^*\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^*}{\partial x}\Big )\Big)
+\Rightarrow \frac{\partial \left |\Psi\right |^2}{\partial t} = \frac{i\hbar}{2m} \Big( \Psi^{\ast}\frac{\partial^2 \Psi}{\partial x^2} - \Psi\frac{\partial^2 \Psi^{\ast}}{\partial x^2}\Big ) = \frac{\partial}{\partial x}\Big { \frac{i\hbar}{2m}\Big(\Psi^{\ast}\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^{\ast}}{\partial x}\Big )\Big}
 \end{equation}
 
-
 \begin{equation}
-\therefore, \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \frac{i\hbar}{2m}\Big (\Psi^\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^}{\partial x}\Big )_{-\infty}^{+\infty}
+\therefore, \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \frac{i\hbar}{2m}\Big (\Psi^{\ast}\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^{\ast}}{\partial x}\Big )_{-\infty}^{+\infty}
 \end{equation}
 
 Since, \Psi(x,t)\rightarrow 0 as x\rightarrow \infty for \Psi(x,t) to be non-normalizable.
