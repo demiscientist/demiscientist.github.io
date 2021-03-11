@@ -32,20 +32,30 @@ Fortunately, the Schrödinger equation has the remarkable property that it autom
 
 To check time evolution of normalization,
 
-{\displaystyle \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \int_{-\infty}^{+\infty}\frac{\partial}{\partial t}\left |\Psi(x,t)\right |^2 dx}
+\begin{equation}
+\frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \int_{-\infty}^{+\infty}\frac{\partial}{\partial t}\left |\Psi(x,t)\right |^2 dx
+\end{equation}
+
 Writing Schrödinger equation as:
 
-{\displaystyle \frac{\partial \Psi}{\partial t} = \frac{i\hbar}{2m} \frac{\partial^2 \Psi}{\partial x^2} - \frac{i}{\hbar}V\Psi} 
+\begin{equation}
+\frac{\partial \Psi}{\partial t} = \frac{i\hbar}{2m} \frac{\partial^2 \Psi}{\partial x^2} - \frac{i}{\hbar}V\Psi
+\begin{equation}
 
 Similarly,
 
-{\displaystyle \frac{\partial \Psi^*}{\partial t} = -\frac{i\hbar}{2m} \frac{\partial^2 \Psi^*}{\partial x^2} + \frac{i}{\hbar}V\Psi}
+\begin{equation}
+\frac{\partial \Psi^}{\partial t} = -\frac{i\hbar}{2m} \frac{\partial^2 \Psi^}{\partial x^2} + \frac{i}{\hbar}V\Psi
+\begin{equation}
 
-{Since V and \Psi are real.}
+Since $$V$$ and $$\Psi$$ are real.
 
 Substituting in the first equation and rearranging, we get;
 
-{\displaystyle \Rightarrow \frac{\partial \left |\Psi\right |^2}{\partial t} = \frac{i\hbar}{2m} \Big( \Psi^*\frac{\partial^2 \Psi}{\partial x^2} - \Psi\frac{\partial^2 \Psi^*}{\partial x^2}\Big ) = \frac{\partial}{\partial x}\Big [\frac{i\hbar}{2m}\Big (\Psi^*\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^*}{\partial x}\Big )\Big ]}
+\begin{equation}
+\Rightarrow \frac{\partial \left |\Psi\right |^2}{\partial t} = \frac{i\hbar}{2m} \Big( \Psi^\frac{\partial^2 \Psi}{\partial x^2} - \Psi\frac{\partial^2 \Psi^*}{\partial x^2}\Big ) = \frac{\partial}{\partial x}\Big [\frac{i\hbar}{2m}\Big (\Psi^*\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^*}{\partial x}\Big )\Big ]
+\begin{equation}
+
 
 {\displaystyle \therefore, \frac{d}{dt}\int_{-\infty}^{+\infty}\left |\Psi(x,t)\right |^2 dx = \frac{i\hbar}{2m}\Big (\Psi^*\frac{\partial \Psi}{\partial x} - \Psi\frac{\partial \Psi^*}{\partial x}\Big )_{-\infty}^{+\infty}}
 
