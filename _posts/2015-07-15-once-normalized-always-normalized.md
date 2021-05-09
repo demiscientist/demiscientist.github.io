@@ -99,9 +99,7 @@ Using wave equation,
 \triangledown^2\Psi = \frac{1}{v^2}\frac{\partial^2 \Psi}{\partial t^2}
 \end{equation}
 
-where, $$\Psi = \Phi(x,y,z)T(t)$$
-
-where, $$\Phi(x,y,z)$$ is the function of space.
+where, $$\Psi = \Phi(x,y,z)T(t)$$ and $$\Phi(x,y,z)$$ is the function of space.
 
 We are going to strictly consider $$V$$ to be a function of just $$x$$, and not $$x$$ and $$t$$.
 
