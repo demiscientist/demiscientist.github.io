@@ -149,9 +149,9 @@ Untitled-1-page-001
 
 Wave \ function \ in \ a \ square \ well 
 
-By normalizing the wave function we want to solve for the unknown constant A. In a normalized function, the probability of finding the particle between $$x$$ and $$x+dx$$, $$\left |\Psi(x)\right |^2dx$$,
+By normalizing the wave function we want to solve for the unknown constant A. In a normalized function, the probability of finding the particle between $$x$$ and $$x+dx$$, $$\left |\Psi(x)\right |^2 dx$$,
 
-Also, $$\int_{0}^{a}\left |\Psi(x)\right |^2dx = 1$$
+Also, $$\int_{0}^{a}\left |\Psi(x)\right |^2 dx = 1$$
 
 Substituting for $$\Psi(x)$$ gives us:
 
