@@ -96,7 +96,7 @@ $$ E = \frac{p^2}{2m} + V$$
 Using wave equation,
 
 \begin{equation}
-\triangledown^2\Psi = \frac{1}{v^2}\frac{\partial^2 \Psi}{\partial t^2}}
+\triangledown^2\Psi = \frac{1}{v^2}\frac{\partial^2 \Psi}{\partial t^2}
 \end{equation}
 
 where, $$\Psi = \Phi(x,y,z)T(t)$$
