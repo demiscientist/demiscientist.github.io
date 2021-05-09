@@ -109,9 +109,9 @@ Since we are looking for harmonic solutions (following Schrödinger’s brillian
 T(t) = e^{-i\omega t}
 \end{equation}
 
-\therefore, $$T(t) = e^{-i\frac{2\pi}{h}t}}$$
+$$\therefore, T(t) = e^{-i\frac{2\pi}{h}t}$$
 
-where $$\omega = 2\pi$$ \nu  and \nu = \frac{E}{h}
+where $$\omega = 2\pi \nu$$  and $$\nu = \frac{E}{h}$$
 
 Now,
 
