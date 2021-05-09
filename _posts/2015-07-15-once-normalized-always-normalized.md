@@ -91,8 +91,8 @@ $$ E = \frac{p^2}{2m} + V$$
 - It must be linear in $$\Psi(x,t)$$. That is, if $$\Psi_1(x,t)$$ and $$\Psi_2(x,t)$$ are two different solutions to the equations for a given potential energy $$V$$, then arbitrary linear combination of these solutions, $$\Psi(x,t) = c_1\Psi_1(x,t) + c_2\Psi_2(x,t)$$, is also a solution. This linearity requirement ensures that we shall be able to add together wave functions to produce the constructive and destructive interferences that are so characteristic of waves.
 - The potential energy $$V$$ is generally a function of $$x$$, and possibly even $$t$$.
 
-
 ### Wave associated with a particle—
+
 Using wave equation,
 
 \begin{equation}
@@ -103,13 +103,12 @@ where, $$\Psi = \Phi(x,y,z)T(t)$$ and $$\Phi(x,y,z)$$ is the function of space.
 
 We are going to strictly consider $$V$$ to be a function of just $$x$$, and not $$x$$ and $$t$$.
 
-Since we are looking for harmonic solutions (following Schrödinger’s brilliant insight, we choose to express the phase of a plane wave in the superfluid vacuum as a complex phase factor via $$\Psi = Ae^{i(k.r-\omega t)$$), we have;
+Since we are looking for harmonic solutions (following Schrödinger’s brilliant insight, we choose to express the phase of a plane wave in the superfluid vacuum as a complex phase factor via $$\Psi = Ae^{i(k.r-\omega t)}$$, we have;
 
-\begin{equation}
+\begin{eqnarray}
 T(t) = e^{-i\omega t}
-\end{equation}
-
 $$\therefore, T(t) = e^{-i\frac{2\pi}{h}t}$$
+\end{eqnarray}
 
 where $$\omega = 2\pi \nu$$  and $$\nu = \frac{E}{h}$$
 
