@@ -136,11 +136,11 @@ which is the required time-independent Schrödinger equation.
 
 Also the time-dependent Schrödinger equation can be written as:
 
-{\displaystyle \boxed{-\frac{\hbar^2}{2m}\triangledown^2\Psi(x,t) + V\Psi(x) = -\frac{\hbar}{i}\frac{\partial}{\partial t}\Psi(x,t)}}
+$${\displaystyle \boxed{-\frac{\hbar^2}{2m}\triangledown^2\Psi(x,t) + V\Psi(x) = -\frac{\hbar}{i}\frac{\partial}{\partial t}\Psi(x,t)}}$$
 
 In the end, I’d like to illustrate the steps for normalization of wave function of a particle in an infinite square well —
 
-Starting with the wave equation: {\displaystyle \Psi(x) = A\sin\Big ({\frac{n \pi x}{a}}\Big )}
+Starting with the wave equation: $${\displaystyle \Psi(x) = A\sin\Big ({\frac{n \pi x}{a}}\Big )}$$
 
 The wave function is a sine wave. You can see the first two wave functions plotted in the following figure.
 
@@ -154,21 +154,21 @@ Also, $$\int_{0}^{a}|\Psi(x)|^2dx = 1$$
 
 Substituting for $$\Psi(x)$$ gives us:
 
-{\displaystyle |A|^2 \int_{0}^{a}\sin^2{\Big ( \frac{n\pi x}{a}\Big )}dx = 1}
+$${\displaystyle |A|^2 \int_{0}^{a}\sin^2{\Big ( \frac{n\pi x}{a}\Big )}dx = 1}$$
 
 Solving the integral in the above equation, we get;
 
-{\displaystyle \int_{0}^{a}\sin^2{\Big ( \frac{n\pi x}{a}\Big )}dx = \frac{a}{2}}
+$${\displaystyle \int_{0}^{a}\sin^2{\Big ( \frac{n\pi x}{a}\Big )}dx = \frac{a}{2}}$$
 
 Using the previous equation,
 
-{\displaystyle |A|^2\Big (\frac{a}{2}\Big ) = 1}
+$${\displaystyle |A|^2\Big (\frac{a}{2}\Big ) = 1}$$
 
-{\displaystyle \Rightarrow \ A = \sqrt{\frac{2}{a}}}
+$${\displaystyle \Rightarrow \ A = \sqrt{\frac{2}{a}}}$$
 
 We finally arrive at the much awaited normalized wave function, with value of A plugged in,
 
-{\displaystyle \Psi(x) = \sqrt{\frac{2}{a}}\sin{\Big ( \frac{n\pi x}{a}\Big )} \quad \quad n=1,2,3,}.
+$${\displaystyle \Psi(x) = \sqrt{\frac{2}{a}}\sin{\Big ( \frac{n\pi x}{a}\Big )} \quad \quad n=1,2,3,}$$.
 
 and that’s the normalized wave function for a particle in an infinite square well.
 
