@@ -106,7 +106,7 @@ We are going to strictly consider $$V$$ to be a function of just $$x$$, and not 
 Since we are looking for harmonic solutions (following Schrödinger’s brilliant insight, we choose to express the phase of a plane wave in the superfluid vacuum as a complex phase factor via $$\Psi = Ae^{i(k.r-\omega t)}$$, we have;
 
 \begin{eqnarray}
-T(t) = e^{-i\omega t}\\
+T(t) = e^{-i\omega t}
 
 \therefore, T(t) = e^{-i\frac{2\pi}{h}t}
 \end{eqnarray}
