@@ -84,12 +84,12 @@ which connect, for the case of essentially constant $$p$$ and $$E$$, the wavelen
 
 We begin our plausibility argument by listing four reasonable assumptions concerning the properties of the desired quantum mechanical wave equation:
 
--It must be consistent with the de Broglie-Einstein postulates,
+- It must be consistent with the de Broglie-Einstein postulates,
 $$ \lambda = \frac{h}{p}$$ and $$ \nu = \frac{E}{h}$$
--It must be consistent with the total energy equation,
+- It must be consistent with the total energy equation,
 $$ E = \frac{p^2}{2m} + V$$
--It must be linear in $$\Psi(x,t)$$. That is, if $$\Psi_1(x,t)$$ and $$\Psi_2(x,t)$$ are two different solutions to the equations for a given potential energy $$V$$, then arbitrary linear combination of these solutions, $$\Psi(x,t) = c_1\Psi_1(x,t) + c_2\Psi_2(x,t)$$, is also a solution. This linearity requirement ensures that we shall be able to add together wave functions to produce the constructive and destructive interferences that are so characteristic of waves.
--The potential energy $$V$$ is generally a function of $$x$$, and possibly even $$t$$.
+- It must be linear in $$\Psi(x,t)$$. That is, if $$\Psi_1(x,t)$$ and $$\Psi_2(x,t)$$ are two different solutions to the equations for a given potential energy $$V$$, then arbitrary linear combination of these solutions, $$\Psi(x,t) = c_1\Psi_1(x,t) + c_2\Psi_2(x,t)$$, is also a solution. This linearity requirement ensures that we shall be able to add together wave functions to produce the constructive and destructive interferences that are so characteristic of waves.
+- The potential energy $$V$$ is generally a function of $$x$$, and possibly even $$t$$.
 
 ### Wave associated with a particle—
 Using wave equation,
