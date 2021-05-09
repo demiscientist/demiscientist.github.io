@@ -114,23 +114,23 @@ where $$\omega = 2\pi \nu$$  and $$\nu = \frac{E}{h}$$
 
 Now,
 
-$$ \Psi = \Phi(x) e^{-i\frac{E}{\hbar}t}$$
+$$\Psi = \Phi(x) e^{-i\frac{E}{\hbar}t}$$
 
 Substituting in the wave equation,
 
-$$ \triangledown^2\Phi(x)e^{-i\frac{E}{\hbar}t} = \frac{1}{v^2}\frac{\partial^2 \Psi}{\partial t^2}$$
+$$\triangledown^2\Phi(x)e^{-i\frac{E}{\hbar}t} = \frac{1}{v^2}\frac{\partial^2 \Psi}{\partial t^2}$$
 
-{\displaystyle \Rightarrow \triangledown^2 \Phi(x) = -\frac{1}{v^2}\frac{E^2}{\hbar^2}\Phi(x)}
+$${\displaystyle \Rightarrow \triangledown^2 \Phi(x) = -\frac{1}{v^2}\frac{E^2}{\hbar^2}\Phi(x)}$$
 
-                                   {\displaystyle = -\frac{1}{v^2} 4\pi^2\nu^2\Phi(x)}
+$$                                   {\displaystyle = -\frac{1}{v^2} 4\pi^2\nu^2\Phi(x)}$$
 
-                         {\displaystyle = \frac{4\pi^2}{h^2}p^2\Phi(x)}
+$$                         {\displaystyle = \frac{4\pi^2}{h^2}p^2\Phi(x)}$$
 
-        {\displaystyle {\triangledown^2\Phi(x) + \frac{4\pi^2p^2}{\hbar^2}\Phi(x) = 0}}
+$$        {\displaystyle {\triangledown^2\Phi(x) + \frac{4\pi^2p^2}{\hbar^2}\Phi(x) = 0}}$$
 
 for given E,
 
-{\displaystyle \boxed{-\frac{\hbar^2}{2m}\Phi_E(x) + V\Phi_E(x) = E\Phi_E(x)}}
+$${\displaystyle \boxed{-\frac{\hbar^2}{2m}\Phi_E(x) + V\Phi_E(x) = E\Phi_E(x)}}$$
 
 which is the required time-independent Schrödinger equation.
 
